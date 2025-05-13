@@ -58,7 +58,7 @@
     font-size: 16px;
     color: #333;
     margin-bottom: 10px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #608abf;
   }
   
   .about p {
@@ -81,7 +81,7 @@
     font-size: 20px;
     color: #333;
     margin-bottom: 15px;
-    border-bottom: 2px solid #e0e0e0;
+    border-bottom: 2px solid #608abf;
     padding-bottom: 5px;
   }
   
@@ -97,7 +97,7 @@
   
   .entry span {
     font-weight: normal;
-    color: #608abf;
+    color: #000;
   }
   
   .entry p {
@@ -106,3 +106,43 @@
     margin-bottom: 8px;
   }
   
+
+.resume-container {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+
+.sidebar, .main-content {
+  flex: 1 1 300px; 
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 768px) {
+  .sidebar, .main-content {
+    padding: 20px;
+  }
+
+  .profile-pic img {
+    width: 100px;
+    height: auto;
+  }
+
+  .sidebar h1 {
+    font-size: 20px;
+  }
+
+  .main-content h2 {
+    font-size: 18px;
+  }
+
+  .entry h3 {
+    font-size: 15px;
+  }
+
+  .entry p {
+    font-size: 13px;
+  }
+}
+

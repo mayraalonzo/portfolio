@@ -1,40 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Info - Portfolio</title>
-    <!-- <link rel="stylesheet" href="styles.css"> -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Mayra Alonzo</title>
+  <link rel="stylesheet" href="contact.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="images/flower-icon.png"> 
+
 </head>
 <body>
-    <header>
-        <h1>Contact Information</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="writing.html">Writing Samples</a></li>
-                <li><a href="awards.html">Awards</a></li>
-                <li><a href="about-moi.html">About Me</a></li>
-                <li><a href="contact.html">Contact Info</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="hobbies.html">Hobbies</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Email</h2>
-            <p>mayra.alonzo_lopez2024@student.cart.org</p>
-        </section>
-        <section>
-            <h2>Phone</h2>
-            <p>(555) 555-5555</p>
-            <!-- Placeholder for now. Feel comfortable changing this at the end -->
-        </section>
-    </main>
-    <footer>
-        <p>© 2025 Mayra Alonzo</p>
-    </footer>
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="about-moi.html">About</a></li>
+        <li><a href="awards.html">Awards</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="index.html">MAYRA ALONZO</a></li>
+        <li><a href="writing.html">Blog</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li class="active"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-intro">
+      <h1>I'm open for collaboration, speaking opportunities and new projects.</h1>
+
+      <div class="contact-cards">
+        <div class="card">
+          <img src="images/pink-icon.jpg" alt="Girl" class="avatar" />
+          <p class="title">Web Developer</p>
+          <a href="#" class="button">Connect with me on LinkedIn</a>
+        </div>
+        <div class="card">
+          <img src="images/pink-icon.jpg" alt="@mayraalonzo" class="avatar" />
+          <p class="handle">@_mayraalonzo</p>
+          <a href="#" class="button">Follow me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h2>Still have questions? Feel free to reach out to me.</h2>
+      <form>
+        <label>Your name *</label>
+        <input type="text" placeholder="What is your name?" required />
+
+        <label>Your email *</label>
+        <input type="email" placeholder="What is your email?" required />
+
+        <label>Your message</label>
+        <textarea placeholder="What do you want to talk about?" rows="4"></textarea>
+
+        <div class="form-buttons">
+          <button type="submit" class="send"> Send message</button>
+          <a href="#" class="clear">Clear</a>
+        </div>
+      </form>
+
+      <div class="resume-box">
+        <h3>Interested in my resume?</h3>
+        <p>Check out the one I coded myself.</p>
+        <a href="resume.html" target="_blank" class="resume-button">View Resume</a>
+      </div>
+      
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-icons">
+      <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+    <p>Developed by Mayra Alonzo - © 2025</p>
+  </footer>
+  
 </body>
 </html>
