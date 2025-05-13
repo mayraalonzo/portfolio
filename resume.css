@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: #f4f6fa;
+    padding: 20px;
+  }
+  
+  .resume-container {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .sidebar {
+    width: 30%;
+    background: #f5f8fc;
+    padding: 30px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .profile-pic img {
+    width: 180px;
+    height: 125px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar h1 {
+    font-size: 24px;
+    color: #608abf;
+    margin: 10px 0 5px;
+  }
+  
+  .sidebar .title {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .about, .skills {
+    margin-top: 30px;
+  }
+  
+  .about h2, .skills h2 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .about p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .skills ul {
+    list-style: disc;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  
+  .main-content {
+    width: 70%;
+    padding: 30px;
+  }
+  
+  .main-content h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+  }
+  
+  .entry {
+    margin-bottom: 20px;
+  }
+  
+  .entry h3 {
+    font-size: 16px;
+    color: #222;
+    margin-bottom: 5px;
+  }
+  
+  .entry span {
+    font-weight: normal;
+    color: #608abf;
+  }
+  
+  .entry p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 8px;
+  }
+  
